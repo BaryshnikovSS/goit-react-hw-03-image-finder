@@ -4,7 +4,7 @@ import ImageGallery from "./imageGallery/ImageGallery";
 import Button from "./button/Button";
 import Loader from "react-loader-spinner";
 import Modal from "./modal/Modal";
-import ErrorNotification from "./errors/errorNotification/ErrorNotification";
+import ErrorNotification from "../errors/errorNotification/ErrorNotification";
 import { fetchGallery } from "../services/gallery-api";
 import css from "./App.module.css";
 
